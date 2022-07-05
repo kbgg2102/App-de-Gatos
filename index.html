@@ -1,69 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head> </head>
 
-  <body>
-    <h2>AppDeGatos</h2>
-    <main>
-      <h3>Imágenes de Gatos</h3>
-      <!--TODO: Agregar enlace a imágenes de gatos-->
-      <p>
-        Haz click aqui para ver más
-        <a
-          href="https://freecodecamp.org/espanol/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          imágenes de gatos.</a
-        >
-      </p>
-      <a href="#parrafo-1"> Párrafo 1</a>
-      <a href="#parrafo-2"> Párrafo 2</a>
-      <a href="#parrafo-3"> Párrafo 3</a>
-      <a href="#parrafo-4"> Párrafo 4</a>
+<head> </head>
 
-      <img
-        src="https:bit.ly/fcc-relaxing-cat"
-        alt="Un lindo gato naranja recostado sobre su espalda."
-      />
-      <img src="Lasana/lasana.jpg" />
+<body>
+  <h2>AppDeGatos</h2>
+  <main>
+    <h3>Imágenes de Gatos</h3>
+    <!--TODO: Agregar enlace a imágenes de gatos-->
 
-      <h3 id="parrafo-1"> Párrafo 1</h3>
-      <p>
-        Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching
-        attack your ankles chase the red dot, hairball run catnip eat the grass
-        sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed
-        everywhere rip the couch sleep in the sink fluffy fur catnip scratched.
-        Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching
-        attack your ankles chase the red dot, hairball run catnip eat the grass
-        sniff.
-      </p>
-      <h3 id="parrafo-2"> Párrafo 2</h3>
-      <p>
-        Purr jump eat the grass rip the couch scratched sunbathe, shed
-        everywhere rip the couch sleep in the sink fluffy fur catnip scratched.
-        Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching
-        attack your ankles chase the red dot, hairball run catnip eat the grass
-        sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed
-        everywhere rip the couch sleep in the sink fluffy fur catnip scratched.
-      </p>
-      <h3 id="parrafo-3"> Párrafo 3</h3>
-      <p>
-        Meowwww loved it, hated it, loved it, hated it yet spill litter box,
-        scratch at owner, destroy all furniture, especially couch or lay on arms
-        while you're using the keyboard. Missing until dinner time toy mouse
-        squeak roll over. With tail in the air lounge in doorway. Man running
-        from cops stops to pet cats, goes to jail.
-      </p>
-      <h3 id="parrafo-4"> Párrafo 4</h3> 
-      <p>
-        Intently stare at the same spot poop in the plant pot but kitten is
-        playing with dead mouse. Get video posted to internet for chasing red
-        dot leave fur on owners clothes meow to be let out and mesmerizing birds
-        leave fur on owners clothes or favor packaging over toy so purr for no
-        reason. Meow to be let out play time intently sniff hand run outside as
-        soon as door open yet destroy couch.
-      </p>
-    </main>
-  </body>
+    Haz click aqui para ver más
+    <a href="https://freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">imágenes de gatos.</a>
+
+    <a href="https://freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"><img
+        src="https://s3.amazonaws.com/freecodecamp/relaxing-cat.jpg" alt="Un lindo gato naranja recostado sobre su espalda." /></a>
+    
+    <hr>
+
+    <h3>Lista de Gatos</h3>
+
+    <p>Cosas que los gatos <em>aman</em>:</p>
+    <ul>
+      <li>Menta gatuna</li>
+      <li>Apuntadores Làser</li>
+      <li><s>Lasaña</s></li>
+    </ul>
+
+    <img src="Imagenes/lasana.jpg" alt="Lasaña" />
+    <p>Cosas que los gatos <strong>odian</strong>:</p>
+     <ol>
+        <li>Tratamiento antipulga</li>
+        <li>Truenos</li>
+        <li>Otros gatos</li>
+
+     </ol>
+
+     <img src="imagenes/Otros gatos.jpg">
+
+     <form action="/enviar-respuesta">
+        <!--Botones de radio-->
+       <label for="interior"> 
+        <input id="interior" type="radio" value="interior" name="interior-exterior" checked>Interior</label><br>
+
+       <label for="interior"> 
+        <input id="interior" type="radio" value="exterior" name="interior-exterior">Exterior</label> <br>
+        <br>
+        <!--Casillas de verificaciòn-->
+       <label for="Carinoso">
+        <input id="Carinoso"type="checkbox" value="Carinoso" name="personalidad" checked>Cariñoso
+       </label>
+       <br>
+       <label for="Perezoso">
+        <input id="Perezoso"type="checkbox" value="Perezoso"name="personalidad" >Perezoso
+        </label>
+        <br>
+       <label for="Energico">
+        <input id="Energico"type="checkbox" value="Energico" name="personalidad">Energico
+        </label>
+        <br>
+       
+       <!--Texto y botòn Enviar-->
+        <input type="text" placeholder="URL de la foto de tu gato" required><br>
+        <button type="submit">Enviar</button>
+      
+     </form>
+  </main>
+</body>
+
 </html>
