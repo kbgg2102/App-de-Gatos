@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head> </head>
+<head> 
+  <title>AppDeGatos</title>
+  <link href="imagenes/style.css" rel="stylesheet">
+</head>
 
 <body>
-  <h2>AppDeGatos</h2>
+  <h2 id="titulo-app-gatos"> AppDeGatos</h2>
   <main>
     <h3>Imágenes de Gatos</h3>
     <!--TODO: Agregar enlace a imágenes de gatos-->
@@ -19,22 +22,24 @@
 
     <h3>Lista de Gatos</h3>
 
-    <p>Cosas que los gatos <em>aman</em>:</p>
-    <ul>
-      <li>Menta gatuna</li>
-      <li>Apuntadores Làser</li>
-      <li><s>Lasaña</s></li>
-    </ul>
+    <div class="contenedor-listas">
 
-    <img src="Imagenes/lasana.jpg" alt="Lasaña" />
-    <p>Cosas que los gatos <strong>odian</strong>:</p>
-     <ol>
+      <p>Cosas que los gatos <em>aman</em>:</p>
+      <ul>
+        <li>Menta gatuna</li>
+        <li>Apuntadores Làser</li>
+        <li><s>Lasaña</s></li>
+      </ul>
+
+      <img src="Imagenes/lasana.jpg" alt="Lasaña" />
+      <p>Cosas que los gatos <strong>odian</strong>:</p>
+      <ol>
         <li>Tratamiento antipulga</li>
         <li>Truenos</li>
         <li>Otros gatos</li>
 
-     </ol>
-
+      </ol>
+    </div>
      <img src="Imagenes/gatos.jpg">
 
      <form action="/enviar-respuesta">
@@ -65,6 +70,10 @@
       
      </form>
   </main>
+
+  <footer>
+    <p><small>Sin Derechos de Autor -<a href="https://freecodecamp.org/espanol/"> freeCodeCamp.org</a></small></p>
+  </footer>
 </body>
 
 </html>
