@@ -19,3 +19,24 @@ a[href="https://freecodecamp.org/espanol/"] {
    text-decoration: none;
    font-weight: bold;
 }
+
+body {
+
+   background-color: whitesmoke;
+}
+.texto-azul {
+color:blue;
+
+}
+.texto-morado {
+
+   color:blueviolet;
+}
+
+img {
+   border-radius: 50%;
+   border-width: 3px;
+   border-style: solid;
+   border-color:#eb4034;
+
+}
